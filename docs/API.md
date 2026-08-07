@@ -247,3 +247,9 @@ Remove uma mensagem do mural.
   - `401` — Token ausente ou inválido
   - `403` — Usuário não é o dono da mensagem nem admin
   - `404` — Mensagem não encontrada
+
+## CORS
+
+Esta API tem CORS habilitado para qualquer origem. Você pode consumi-la
+de qualquer domínio (localhost, Vercel, etc.) sem configuração adicional
+no cliente.
